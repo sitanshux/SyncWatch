@@ -36,5 +36,5 @@ socketHandler(io);
 
 // Server startup
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`[SyncWatch Server] Running on http://localhost:${PORT}`);
+  console.log(`[SyncWatch Server] Running on port ${PORT}`);
 });
